@@ -38,7 +38,7 @@ class GraphicState:
     text_color: tuple[int, int, int] = (200,  50,  20) # Color of text
     food_color: tuple[int, int, int] = (200, 200,  20) # Color of food
     head_color: tuple[int, int, int] = (200,  50,  20) # Color of snake head
-    body_color: tuple[int, int, int] = (  0, 200, 100) # Color of snake body
+    body_color: tuple[int, int, int] = (  0, 100, 100) # Color of snake body
 
 
 def init() -> tuple[GameState, GraphicState]:
