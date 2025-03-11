@@ -34,7 +34,7 @@ class GraphicState:
     offset_x: int  = 0     # Offset for x axis
     offset_y: int  = 0     # Offset for y axis
     bg_color:   tuple[int, int, int] = (255, 255, 255) # Color of background
-    grid_color: tuple[int, int, int] = (200, 200, 200) # Color of grid
+    grid_color: tuple[int, int, int] = (200, 100, 200) # Color of grid
     text_color: tuple[int, int, int] = (200,  50,  20) # Color of text
     food_color: tuple[int, int, int] = (200, 200,  20) # Color of food
     head_color: tuple[int, int, int] = (200,  50,  20) # Color of snake head
