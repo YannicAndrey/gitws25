@@ -27,7 +27,7 @@ class GameState:
 class GraphicState:
     """ Store all information related to graphics (rendering) """
     screen: pygame.Surface # Surface to render on
-    fps: int       = 240    # Frames per second
+    fps: int       = 60    # Frames per second
     cell_size: int = 30    # Size of cells
     window_h: int  = 600   # Height of the window, default must match cell_size * grid_size
     window_w: int  = 600   # Width of the window, default must match cell_size * grid_size
